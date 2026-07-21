@@ -1,0 +1,17 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+httpx==0.25.1
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# Use older but stable transformers with CPU support
+transformers==4.35.0
+torch==2.0.1
+sentencepiece==0.1.99
+protobuf==3.20.3
+
+# Alternative: Use Hugging Face Inference API instead of local models
+# Uncomment these if using API instead of local model
+# huggingface-hub==0.19.4
+# requests==2.31.0
